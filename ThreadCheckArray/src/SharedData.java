@@ -1,8 +1,9 @@
 import java.util.ArrayList;
 
+
+
 /**
- * @author cr7h
- *
+ * 
  */
 public class SharedData 
 {
@@ -18,14 +19,14 @@ public class SharedData
 	 * @param array
 	 * @param b
 	 */
-	public SharedData(int[] array, int b) {
+	public SharedData(ArrayList<Integer> array, int b) {
 		
 		this.array =new ArrayList<>();
 		this.b = b;
 	}
 
 	/**
-	 * @return
+	 * @return winArray    winArray is boolean array 
 	 */
 	public boolean[] getWinArray() 
 	{
@@ -33,7 +34,7 @@ public class SharedData
 	}
 
 	/**
-	 * @param winArray
+	 * @param winArray      winArray is boolean array 
 	 */
 	public void setWinArray(boolean [] winArray) 
 	{
@@ -41,7 +42,7 @@ public class SharedData
 	}
 
 	/**
-	 * @return
+	 * @return array         array is listArray 
 	 */
 	public ArrayList<Integer> getArray()  
 	{
@@ -49,7 +50,7 @@ public class SharedData
 	}
 
 	/**
-	 * @return
+	 * @return b              b is integer number 
 	 */
 	public int getB() 
 	{
@@ -57,15 +58,15 @@ public class SharedData
 	}
 
 	/**
-	 * @return
+	 * @return flag           flag is 
 	 */
 	public boolean getFlag() 
 	{
 		return flag;
 	}
 
-	/**ىؤلىلبى
-	 * @param flag  ابابابؤاؤ
+	/**
+	 * @param flag  
 	 */
 	public void setFlag(boolean flag) {
 		this.flag = flag;
